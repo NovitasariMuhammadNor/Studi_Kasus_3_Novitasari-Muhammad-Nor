@@ -10,7 +10,6 @@ print("Masukkan nilai ujian mahasiswa (ketik 'selesai' untuk berhenti):")
 while True:
     data = input("Nilai: ")
     if data.lower() == "selesai":
-        # Validasi minimal 5 nilai dan harus ada lulus & remedi
         if len(nilai_masuk) < 5:
             print("Minimal harus ada 5 nilai! Silakan lanjutkan input.")
             continue
