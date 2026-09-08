@@ -12,12 +12,12 @@ Berikut Penjelasannya
 <img width="313" height="59" alt="image" src="https://github.com/user-attachments/assets/44c312c5-9d03-4091-ab3b-6db42919ac1d" />
 
 - Program terus meminta input nilai sampai kamu mengetik "selesai".
-- Setiap nilai yang dimasukkan akan dicek apakah valid (antara 0–100).
+- Setiap nilai yang dimasukkan akan dicek apakah valid (antara 65–100).
 
 <img width="563" height="120" alt="image" src="https://github.com/user-attachments/assets/c1e554d6-07eb-4ade-8635-42f77db33939" />
 
 - Program mencoba (try) mengubah input jadi angka (int(data)), supaya bisa dibandingkan.  
-- Kalau nilainya di luar 0–100, muncul pesan “Nilai harus antara 0–100” dan program lanjut ke input berikutnya tanpa menyimpan nilai itu.  
+- Kalau nilainya di luar 65–100, muncul pesan “Nilai harus antara 65–100” dan program lanjut ke input berikutnya tanpa menyimpan nilai itu.  
 - Nilai yang valid langsung dimasukkan ke daftar nilai_masuk.  
 - Kemudian dicek: kalau nilainya ≥ 65, masuk ke daftar lulus; kalau di bawah 65, masuk ke daftar remedial.  
 - Kalau input bukan angka (misalnya huruf atau kosong), bagian except ValueError akan menangkap error dan menampilkan pesan “Input tidak valid. Masukkan angka atau 'selesai'.”
